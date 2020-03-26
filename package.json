@@ -1,0 +1,25 @@
+{
+  "name": "hf-jest-utility",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "transpile": "babel src/app.js --out-file dist/index.js",
+    "prepublishOnly": "npm run transpile"
+  },
+  "author": "hfchou",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsiaofung/hf-jest-utility.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hsiaofung/hf-jest-utility/issues"
+  },
+  "homepage": "https://github.com/hsiaofung/hf-jest-utility#readme"
+}
